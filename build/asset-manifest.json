@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/phphill/static/js/main.b259b21d.js",
+    "index.html": "/phphill/index.html",
+    "main.b259b21d.js.map": "/phphill/static/js/main.b259b21d.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b259b21d.js"
+  ]
+}
