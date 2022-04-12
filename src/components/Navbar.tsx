@@ -2,7 +2,7 @@
 import {SCNavbar, SCNavbarMenu, SCNavbarMenuHidden} from './SCNavbar';
 import {MenuNavbar} from './MenuNavbar';
 import MenuIcon from '@mui/icons-material/Menu';
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 
 export function Navbar() {
   const [activeMenu, setActiveMenu] = useState(false);
