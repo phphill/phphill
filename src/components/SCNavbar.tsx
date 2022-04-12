@@ -2,14 +2,19 @@ import styled from 'styled-components';
 
 export const SCNavbar = styled.nav`
   background-color: rgba(1, 247, 205, 1);
+  transition: all 1s;
   .navbar-button {
     width: 50px;
     height: 50px;
     padding: 0.5rem;
   }
   .navbar {
+    transition: all 1s;
     background-color: royalblue;
     height: 50px;
+    @media (min-width: 800px) {
+      display: none;
+    }
   }
 `;
 
@@ -31,6 +36,15 @@ export const SCNavbarMenu = styled.div`
       }
     }
   }
+  @media (min-width: 800px) {
+    ul {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      align-items: center;
+      background-color: royalblue;
+    }
+  }
 `;
 
 export const SCNavbarMenuHidden = styled.div`
@@ -38,4 +52,9 @@ export const SCNavbarMenuHidden = styled.div`
   position: absolute;
   transform: translateY(-100rem);
   transition: all 1s;
+  ul {
+    li {
+      transform: translateX(-50rem);
+    }
+  }
 `;
