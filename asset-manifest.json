@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/static/js/main.1fad4eca.js",
-    "index.html": "/index.html",
-    "main.1fad4eca.js.map": "/static/js/main.1fad4eca.js.map"
+    "main.js": "/phphill/static/js/main.ccbd0649.js",
+    "index.html": "/phphill/index.html",
+    "main.ccbd0649.js.map": "/phphill/static/js/main.ccbd0649.js.map"
   },
   "entrypoints": [
-    "static/js/main.1fad4eca.js"
+    "static/js/main.ccbd0649.js"
   ]
 }
