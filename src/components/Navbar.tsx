@@ -7,9 +7,17 @@ import {useEffect, useState} from 'react';
 export function Navbar() {
   const [activeMenu, setActiveMenu] = useState(false);
 
+  useEffect(() => {
+    if (window.innerWidth >= 800) {
+      setActiveMenu(true);
+    }
+  }, [activeMenu]);
+
   const enableMenu = () => {
     setActiveMenu(activeMenu ? false : true);
   };
+
+  console.log(activeMenu);
 
   return (
     <SCNavbar>
