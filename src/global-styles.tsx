@@ -8,7 +8,8 @@ export default createGlobalStyle`
 }
 
 .container-full {
-  margin: 0 .5rem;
+  width: 100%;
+  padding: 0 .5rem;
 }
 
 .container {

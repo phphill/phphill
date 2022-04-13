@@ -17,8 +17,6 @@ export function Navbar() {
     setActiveMenu(activeMenu ? false : true);
   };
 
-  console.log(activeMenu);
-
   return (
     <SCNavbar>
       <div className="navbar">
