@@ -87,7 +87,7 @@ export const SCNavbarMenu = styled.div`
       width: 100%;
       justify-content: space-around;
       align-items: center;
-      background-color: royalblue;
+      background-color: rgba(95, 18, 222, 1);
       li {
         cursor: pointer;
       }

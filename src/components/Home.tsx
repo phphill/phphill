@@ -1,4 +1,4 @@
-import {SCHeader} from './SCHome';
+import {SCHeader, SCHomeContent} from './SCHome';
 export function Home() {
   return (
     <>
@@ -9,27 +9,26 @@ export function Home() {
           </header>
           <h2>A sua ideia no mundo digital</h2>
         </div>
+        <div className="container">
+          <img
+            src="images/ideia-fora-da-caixa.png"
+            alt=""
+            className="header-images"
+          />
+        </div>
       </SCHeader>
-      <div className="container">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quod
-          veniam libero, in omnis optio impedit distinctio veritatis natus quos
-          velit saepe molestiae ullam ipsa explicabo animi commodi blanditiis
-          dignissimos.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque amet
-          porro distinctio aperiam pariatur sapiente eius, eligendi culpa vero
-          consectetur dicta minima veritatis. Voluptates doloribus odit totam
-          deserunt, autem nobis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-          nostrum nam doloribus eligendi, exercitationem ex sequi soluta illo
-          facere voluptatem enim culpa sed fugit minima nemo animi. Corporis,
-          nihil doloribus!
-        </p>
-      </div>
+      <SCHomeContent>
+        <div className="container">
+          <div className="home-content-card">
+            <img src="images/sucesso.png" alt="" />
+            <p>O sucesso do seu negócio na era digital</p>
+          </div>
+          <div className="home-content-card">
+            <img src="images/brainstorm.jpg" alt="" />
+            <p>Traga as suas ideias e vamos transformar o mundo</p>
+          </div>
+        </div>
+      </SCHomeContent>
     </>
   );
 }
