@@ -3,6 +3,7 @@ import {Navbar} from './components/Navbar';
 import {Home} from './components/Home';
 import {Sites} from './components/Sites';
 import {Sistemas} from './components/Sistemas';
+import {Templates} from './components/Templates';
 export function App() {
   return (
     <>
@@ -10,6 +11,7 @@ export function App() {
       <Home />
       <Sites />
       <Sistemas />
+      <Templates />
       <GlobalStyles />
     </>
   );
