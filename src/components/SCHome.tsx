@@ -15,7 +15,7 @@ export const SCHeader = styled.header`
     rgba(93, 12, 226, 1) 100%
   );
   color: white;
-  .header-images {
+  .header-animations {
     max-width: 200px;
     height: auto;
   }

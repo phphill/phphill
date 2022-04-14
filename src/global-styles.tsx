@@ -7,6 +7,10 @@ export default createGlobalStyle`
   padding: 0;
 }
 
+section{
+  padding: 1rem 0;
+}
+
 .container-full {
   width: 100%;
   padding: 0 .5rem;

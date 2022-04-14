@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
+import {IdeaBulb} from './animations/IdeaBulb';
 import {SCHeader, SCHomeContent} from './SCHome';
 export function Home() {
   return (
@@ -10,11 +12,14 @@ export function Home() {
           <h2>A sua ideia no mundo digital</h2>
         </div>
         <div className="container">
-          <img
+          {/* <img
             src="images/ideia-fora-da-caixa.png"
             alt=""
             className="header-images"
-          />
+          /> */}
+          <div className="header-animations">
+            <IdeaBulb />
+          </div>
         </div>
       </SCHeader>
       <SCHomeContent>

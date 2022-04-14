@@ -1,3 +1,16 @@
+import {AnimationWebMobileBlue} from './animations/WebAndMobileBlue';
+import {SCSites} from './SCSites';
+
 export function Sites() {
-  return <h1>Hello World!</h1>;
+  return (
+    <>
+      <SCSites>
+        <p>
+          Web ou Mobile, seu Site totalmente responsivo e para todos os
+          dispositivos
+          <AnimationWebMobileBlue />
+        </p>
+      </SCSites>
+    </>
+  );
 }
