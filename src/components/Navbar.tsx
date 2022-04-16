@@ -14,7 +14,8 @@ export function Navbar() {
   }, [activeMenu]);
 
   const enableMenu = () => {
-    setActiveMenu(activeMenu ? false : true);
+    // setActiveMenu(activeMenu ? false : true);
+    setActiveMenu(!activeMenu);
   };
 
   return (

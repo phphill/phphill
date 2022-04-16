@@ -1,10 +1,12 @@
-import {ComingSoon} from './animations/ComingSoon';
+import {ComingSoon} from '../components/animations/ComingSoon';
 import {SCTemplates} from './SCTemplates';
 export function Templates() {
   return (
     <SCTemplates>
       <h3>Templates</h3>
-      <ComingSoon />
+      <div className="animation">
+        <ComingSoon />
+      </div>
     </SCTemplates>
   );
 }

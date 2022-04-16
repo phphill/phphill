@@ -5,5 +5,14 @@ export const SCTemplates = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 3rem;
   align-items: center;
+  background-color: lightgray;
+  h3 {
+    font-size: 3rem;
+  }
+  @media (max-width: 800) {
+    max-width: 500px;
+    height: auto;
+  }
 `;
