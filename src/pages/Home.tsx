@@ -1,10 +1,11 @@
+import {BlackSuiteHandshake} from '../components/animations/BlackSuiteHandshake';
 import {IdeaBulb} from '../components/animations/IdeaBulb';
 import {Emoji} from '../components/static/Emoji';
 import {SCHeader, SCHomeContent} from './SCHome';
 export function Home() {
   return (
     <>
-      <SCHeader>
+      <SCHeader id="home">
         <div className="container-full">
           <header>
             <h1>Muito mais do que Sites e Sistemas</h1>
@@ -33,7 +34,8 @@ export function Home() {
               negócio ou para a sua ideia.
             </h3>
             <p>Este pode ser o início de uma grande parceria</p>
-            <Emoji symbol="🤝🏻" label="Hand Shake" size="10rem" />
+            {/* <Emoji symbol="🤝🏻" label="Hand Shake" size="10rem" /> */}
+            <BlackSuiteHandshake />
           </div>
           <div className="home-content">
             <p>E Lembre-se...</p>

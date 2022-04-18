@@ -8,37 +8,37 @@ import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar';
 export function MenuNavbar() {
   return (
     <ul>
-      <a href="#">
+      <a href="#home">
         <li>
           <HomeIcon />
           HOME
         </li>
       </a>
-      <a href="#">
+      <a href="#sites">
         <li>
           <LanguageIcon />
           SITES
         </li>
       </a>
-      <a href="#">
+      <a href="#sistemas">
         <li>
           <SettingsSystemDaydreamIcon />
           SISTEMAS
         </li>
       </a>
-      <a href="#">
+      <a href="#clientes">
         <li>
           <StoreIcon />
           CLIENTES
         </li>
       </a>
-      <a href="#">
+      <a href="#templates">
         <li>
           <FolderCopyIcon />
           TEMPLATES
         </li>
       </a>
-      <a href="#">
+      <a href="#contato">
         <li>
           <PermContactCalendarIcon />
           CONTATO

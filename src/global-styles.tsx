@@ -6,6 +6,11 @@ export default createGlobalStyle`
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+:target{
+  scroll-margin-top: 50px;
 }
 
 section{

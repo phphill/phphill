@@ -2,7 +2,7 @@ import GlobalStyles from './global-styles';
 import {Navbar} from './components/Navbar';
 import {Home} from './pages/Home';
 import {Sites} from './pages/Sites';
-import {Sistemas} from './pages/Sistemas';
+// import {Sistemas} from './pages/Sistemas';
 import {Templates} from './pages/Templates';
 export function App() {
   return (
@@ -10,11 +10,9 @@ export function App() {
       <Navbar />
       <Home />
       <Sites />
-      <Sistemas />
+      {/* <Sistemas /> */}
       <Templates />
       <GlobalStyles />
     </>
   );
-
-  // return <Navbar />;
 }

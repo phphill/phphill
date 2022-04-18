@@ -24,7 +24,13 @@ export const SCHeader = styled.header`
 
 export const SCHomeContent = styled.div`
   padding: 1rem 0;
-  background-color: royalblue;
+  /* background-color: rgba(139, 0, 139, 0.7); */
+  background: rgb(165, 81, 173);
+  background: linear-gradient(
+    90deg,
+    rgba(165, 81, 173, 1) 18%,
+    rgba(252, 70, 107, 1) 100%
+  );
   .home-content {
     position: sticky;
     top: 50px;
@@ -41,19 +47,21 @@ export const SCHomeContent = styled.div`
       position: sticky;
       top: 55px;
       z-index: 1;
-      background-color: green;
+      background-color: rgba(75, 0, 130, 0.5);
+      color: white;
     }
     &:nth-child(2) {
       position: sticky;
       top: 55px;
       z-index: 2;
-      background-color: yellow;
+      background-color: rgba(95, 15, 139, 1);
+      color: white;
     }
     &:nth-child(3) {
       position: sticky;
       top: 55px;
       z-index: 5;
-      background-color: blue;
+      background-color: rgba(123, 38, 151, 1);
       color: white;
     }
   }
